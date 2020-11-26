@@ -34,7 +34,7 @@ public class GameManager {
     private ArrayList<Integer> timeBoom;
     private ArrayList<Integer> timeWave;
     public final Image[] MY_IMAGE= new Image[]{
-            new ImageIcon(getClass().getResource("res/sprites/grass.png")).getImage()
+            //new ImageIcon(getClass().getResource("/res/sprites/grass.png")).getImage()
     };
 
     public boolean isCheckWin() {

@@ -18,7 +18,7 @@ public class PanelMenu extends JPanel implements ActionListener {
     public static final String START="start";
     public static final String HELP="help";
     public static final String EXIT="exit";
-    private Container container;
+    private final Container container;
     public PanelMenu(Container container){
         initPanelMenu();
         initComponents();

@@ -20,7 +20,7 @@ public class Container extends JPanel {
 
     public Container(){
         cardLayout =new CardLayout();
-        panelGame=new PanelGame();
+        panelGame=new   PanelGame();
         panelHelp=new PanelHelp(this);
         panelMenu=new PanelMenu(this);
         setLayout(cardLayout);
